@@ -18,4 +18,4 @@ Une autre approche a été `autokey`, ce système utilisé du [chiffrement asym�
 
 ## Network Time Security (NTS)
 
-Pour pallier aux faiblesses de ces deux protocoles, un nouveau protocole est un cours de création, NTS il se base sur le principe du chiffrement asymétrique sans les problèmes d'autokey. Ce protocole se base en partie sur TLS pour l'échange de clés, il utilise ensuite les parties des headers spécifiques à NTP pour sécuriser le reste de la connexion. C'est un protocole prometteur mais qui n'est malheureusement pas encore assez implémenté.
+Pour pallier aux faiblesses de ces deux protocoles, un nouveau protocole est un cours de création, NTS (standardisé dans la [RFC 8915](https://datatracker.ietf.org/doc/rfc8915/) il se base sur le principe du chiffrement asymétrique sans les problèmes d'autokey. Ce protocole se base en partie sur TLS pour l'échange de clés, il utilise ensuite les parties des headers spécifiques à NTP pour sécuriser le reste de la connexion. C'est un protocole prometteur mais qui n'est malheureusement pas encore assez implémenté.
