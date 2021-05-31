@@ -24,7 +24,7 @@ Le serveur répond ensuite avec un `**Server Hello**` qui contient entre autre :
 
 Le client envoie enfin pour terminer un `Change Cipher Spec` et `Finished`. Vous trouverez [ici 📎](/static/misc/tls/tls_1_3.pcapng) un pcap d'un requête avec TLS 1.3.
 
-En parcourant vous verrez que la version de TLS affichée est TLS 1.2, *it's not a bug, it's a feature* c'est en fait pour éviter que certaines middlebox ~~de merde 😡~~, utilisées notamment en entreprise pour espionner le trafic, bloquent le trafic pour des version de TLS au dessus de TLS 1.2.
+En parcourant vous verrez que la version de TLS affichée est TLS 1.2, *it's not a bug, it's a feature* c'est en fait pour éviter que certaines middlebox <s>de merde 😡</s>, utilisées notamment en entreprise pour espionner le trafic, bloquent le trafic pour des version de TLS au dessus de TLS 1.2.
 
 Des paires de clés publique/privée sont dérivées un clé secrète afin de chiffrer de façon symétrique les échanges. Nous détaillerons bientôt plus en détail ce fonctionnement au travers d'ECDH.
 
